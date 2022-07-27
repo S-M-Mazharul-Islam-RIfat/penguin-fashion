@@ -49,6 +49,14 @@ body {
     width: 30%;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
 a {
     text-decoration: none;
 }
@@ -57,9 +65,9 @@ li {
     list-style-type: none;
 }
 
-.btn-wrapper button {
-    width: 30%;
-    padding: 13px 0;
+
+.buy-now-btn button {
+    padding: 13px 20px;
     display: flex;
     justify-content: center;
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
@@ -68,11 +76,12 @@ li {
     font-size: 10px;
 }
 
-.btn-wrapper button .shopping-cart {
-    width: 20px;
+.buy-now-btn button .shopping-cart {
+    width: 22px;
 }
 
-.btn-wrapper button a {
+
+.buy-now-btn button a {
     font-size: 1.6em;
     margin-left: 8px;
     color: var(--white);
@@ -106,7 +115,6 @@ li {
     color: var(--font-seconday-color);
     font-weight: 500;
 }
-
 
 /* Navbar Section End */
 
@@ -147,31 +155,47 @@ li {
 
 
 /* Woman Jacket Section Start */
-#woman-jacket .woman-jacket-wrapper .container {
-    margin-top: 50px;
+#jacket .jacket-wrapper .container {
+    font-size: 10px;
 }
 
-#woman-jacket .woman-jacket-wrapper .customized__card {
+#jacket .jacket-wrapper .customized__card {
     border: none;
 }
 
-#woman-jacket .woman-jacket-wrapper .container .header-text {
+#jacket .jacket-wrapper .container .header-text {
     margin-bottom: 22px;
 }
 
 /* Woman Jacket Section End */
-#woman-jacket .woman-jacket-wrapper .container .card .jacket-img-wrapper {
+#jacket .jacket-wrapper .container .customized__card .jacket-img-wrapper {
     background-color: var(--jacket-bg-color);
     margin: 18px;
     display: flex;
     justify-content: center;
 }
 
-#woman-jacket .woman-jacket-wrapper .container .card .jacket-img-wrapper img {
+#jacket .jacket-wrapper .container .customized__card .jacket-name {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: var(--font-primary-color);
+}
+
+#jacket .jacket-wrapper .container .customized__card .jacket-info {
+    font-size: 1.6em;
+    color: var(--font-seconday-color);
+}
+
+#jacket .jacket-wrapper .container .card .jacket-img-wrapper img {
     width: 80%;
     padding: 20px;
 }
 
+#jacket .jacket-wrapper .container .card .jacket-price-and-buy-now-btn .jacket-price {
+    color: var(--big-font-color);
+    font-size: 3.6em;
+    font-weight: 900;
+}
 
 
 /*=== Main Section End ===*/
