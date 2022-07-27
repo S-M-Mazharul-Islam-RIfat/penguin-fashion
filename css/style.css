@@ -1,0 +1,177 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Remove after finish the whole work start */
+.bR {
+    border: 1px solid red;
+}
+
+.bB {
+    border: 1px solid blue;
+}
+
+.bG {
+    border: 1px solid green;
+}
+
+/* Remove after finish the whole work end */
+
+
+
+/* Utility Classes Section Start */
+/* font-family: 'Bebas Neue', cursive; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --header-bg-color: #FFFBF0;
+    --big-font-color: #FABE4C;
+    --font-primary-color: #363958;
+    --font-seconday-color: #3C3C3C;
+    --jacket-bg-color: #F1F1F1;
+    --white: #FFFFFF;
+}
+
+
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn-wrapper button {
+    width: 30%;
+    padding: 13px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.btn-wrapper button .shopping-cart {
+    width: 20px;
+}
+
+.btn-wrapper button a {
+    font-size: 1.6em;
+    margin-left: 8px;
+    color: var(--white);
+}
+
+/* Utility Classes Section End */
+
+/*=== Header Section Start ===*/
+#header {
+    background-color: var(--header-bg-color);
+    padding-bottom: 130px;
+}
+
+/* 
+#header .container {
+    margin-left: 70px;
+    margin-right: 70px;
+} */
+
+/* Navbar Section Start */
+#header .navbar .container .navbar-nav {
+    font-size: 10px;
+}
+
+#header .navbar .container .navbar-nav .nav-item {
+    padding: 0 16px;
+}
+
+#header .navbar .container .navbar-nav .nav-item .nav__menu__font__size {
+    font-size: 1.6em;
+    color: var(--font-seconday-color);
+    font-weight: 500;
+}
+
+
+/* Navbar Section End */
+
+
+/* Home Section Start */
+#home .home-wrapper .container .home-info {
+    font-size: 10px;
+}
+
+#home .home-wrapper .penguin {
+    color: var(--big-font-color);
+    font-size: 8em;
+}
+
+#home .home-wrapper .winter {
+    color: var(--font-primary-color);
+    font-size: 8em;
+}
+
+#home .home-wrapper p {
+    color: var(--font-seconday-color);
+    font-size: 1.6em;
+    line-height: 26px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+#home .home-wrapper .home-img-wrapper img {
+    padding-left: 4%;
+}
+
+/* Home Section End */
+
+/*=== Header Section End ===*/
+
+
+/*=== Main Section Start ===*/
+
+
+/* Woman Jacket Section Start */
+#woman-jacket .woman-jacket-wrapper .container {
+    margin-top: 50px;
+}
+
+#woman-jacket .woman-jacket-wrapper .customized__card {
+    border: none;
+}
+
+#woman-jacket .woman-jacket-wrapper .container .header-text {
+    margin-bottom: 22px;
+}
+
+/* Woman Jacket Section End */
+#woman-jacket .woman-jacket-wrapper .container .card .jacket-img-wrapper {
+    background-color: var(--jacket-bg-color);
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#woman-jacket .woman-jacket-wrapper .container .card .jacket-img-wrapper img {
+    width: 80%;
+    padding: 20px;
+}
+
+
+
+/*=== Main Section End ===*/

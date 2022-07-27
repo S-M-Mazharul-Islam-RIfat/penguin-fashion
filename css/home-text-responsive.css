@@ -1,0 +1,13 @@
+@media screen and (max-width:991px) {
+    #home .home-wrapper .penguin {
+        font-size: 6em;
+    }
+
+    #home .home-wrapper .winter {
+        font-size: 6em;
+    }
+
+    #home .home-wrapper p {
+        font-size: 1.4em;
+    }
+}
